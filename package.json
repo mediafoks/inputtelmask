@@ -1,0 +1,17 @@
+{
+    "name": "inputtelmask",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "js": "terser ./src/js/*.js --config-file .config/terser.config.json -o ./js/inputtelmask.min.js"
+    },
+    "keywords": [],
+    "author": "KS",
+    "license": "ISC",
+    "packageManager": "pnpm@9.8.0+sha512.8e4c3550fb500e808dbc30bb0ce4dd1eb614e30b1c55245f211591ec2cdf9c611cabd34e1364b42f564bd54b3945ed0f49d61d1bbf2ec9bd74b866fcdc723276",
+    "dependencies": {
+        "terser": "^5.31.6"
+    }
+}
